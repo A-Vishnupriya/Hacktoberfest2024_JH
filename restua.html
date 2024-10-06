@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Section Styles */
+        #home {
+            background-image: url('restaurant.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        #home button {
+            background-color: #ff5733;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+        }
+
+        #menu {
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Gourmet Kitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to The Gourmet Kitchen</h2>
+        <p>Experience fine dining with fresh, locally sourced ingredients.</p>
+        <button>Reserve a Table</button>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Pasta Primavera</h3>
+            <p>Fresh pasta with seasonal vegetables and a light sauce.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Grilled Salmon</h3>
+            <p>Served with a side of roasted vegetables and garlic butter sauce.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 The Gourmet Kitchen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
